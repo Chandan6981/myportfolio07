@@ -219,7 +219,7 @@ nav {
 /* --- Skills Section --- */
 .skills-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     place-content: center;
     margin-top: 2rem;
