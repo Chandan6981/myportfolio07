@@ -227,7 +227,7 @@ nav {
 
 .skill-item {
     background-color: var(--surface-color);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
     text-align: center;
     font-size: 1.1rem;
