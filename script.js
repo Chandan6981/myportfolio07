@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
             navMenu.classList.remove('active');
         });
     });
+     const skillFills = document.querySelectorAll(".skill-fill");
+
+    skillFills.forEach(fill => {
+        const percentage = fill.getAttribute("data-percentage");
+        fill.style.width = percentage + "%";
+    });
 
     // --- Scroll to Top Button ---
     const scrollToTopBtn = document.getElementById('scrollToTopBtn');
