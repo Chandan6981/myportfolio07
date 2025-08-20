@@ -210,8 +210,8 @@ nav {
 
 .about-container {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-direction: column;
+    gap: 30px;
     max-width: 800px;
     margin: 0 auto;
 }
